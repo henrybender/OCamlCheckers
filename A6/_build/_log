@@ -1,0 +1,24 @@
+### Starting build.
+# Target: main.mli.depends, tags: { package(ANSITerminal), package(oUnit), extension:mli, file:main.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules main.mli > main.mli.depends # cached
+# Target: board.mli.depends, tags: { package(ANSITerminal), package(oUnit), extension:mli, file:board.mli, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules board.mli > board.mli.depends # cached
+# Target: board.cmi, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:mli, file:board.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o board.cmi board.mli # cached
+# Target: main.cmi, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:mli, file:main.mli, interf, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o main.cmi main.mli # cached
+# Target: main.ml.depends, tags: { package(ANSITerminal), package(oUnit), extension:ml, file:main.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules main.ml > main.ml.depends # cached
+# Target: parser.ml.depends, tags: { package(ANSITerminal), package(oUnit), extension:ml, file:parser.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules parser.ml > parser.ml.depends # cached
+# Target: parser.cmo, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:cmo, extension:ml, file:parser.cmo, file:parser.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o parser.cmo parser.ml # cached
+# Target: main.cmo, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:cmo, extension:ml, file:main.cmo, file:main.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o main.cmo main.ml # cached
+# Target: board.ml.depends, tags: { package(ANSITerminal), package(oUnit), extension:ml, file:board.ml, ocaml, ocamldep, quiet, traverse }
+ocamlfind ocamldep -package oUnit -package ANSITerminal -modules board.ml > board.ml.depends # cached
+# Target: board.cmo, tags: { package(ANSITerminal), package(oUnit), byte, compile, extension:cmo, extension:ml, file:board.cmo, file:board.ml, implem, ocaml, quiet, traverse }
+ocamlfind ocamlc -c -package oUnit -package ANSITerminal -o board.cmo board.ml # cached
+# Target: main.byte, tags: { package(ANSITerminal), package(oUnit), byte, dont_link_with, extension:byte, file:main.byte, link, ocaml, program, quiet, traverse }
+ocamlfind ocamlc -linkpkg -package oUnit -package ANSITerminal board.cmo parser.cmo main.cmo -o main.byte # cached
+# Compilation successful.

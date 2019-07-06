@@ -1,0 +1,24 @@
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Start test test suite for A6:0:check 0 0 score.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Test test suite for A6:0:check 0 0 score is successful.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: End test test suite for A6:0:check 0 0 score.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Start test test suite for A6:2:check black no win.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Test test suite for A6:2:check black no win is successful.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: End test test suite for A6:2:check black no win.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Start test test suite for A6:4:no possible moves.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Test test suite for A6:4:no possible moves is successful.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: End test test suite for A6:4:no possible moves.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Start test test suite for A6:5:demo win board red moves.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Test test suite for A6:5:demo win board red moves is successful.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: End test test suite for A6:5:demo win board red moves.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Start test test suite for A6:6:demo win board with curr_player = black.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Test test suite for A6:6:demo win board with curr_player = black is successful.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: End test test suite for A6:6:demo win board with curr_player = black.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Start test test suite for A6:7:no jumps.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Test test suite for A6:7:no jumps is successful.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: End test test suite for A6:7:no jumps.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Start test test suite for A6:8:one jump.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Test test suite for A6:8:one jump is successful.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: End test test suite for A6:8:one jump.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Start test test suite for A6:9:2 jumps.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: Test test suite for A6:9:2 jumps is successful.
+2019-04-23T00:50:02+00:00 dhcp-ccc-4614.eduroam.cornell.edu#01 I: End test test suite for A6:9:2 jumps.

@@ -1,0 +1,48 @@
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:0:check 0 0 score.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:0:check 0 0 score is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:0:check 0 0 score.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:2:check black no win.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:2:check black no win is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:2:check black no win.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:4:deadlockboard.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:4:deadlockboard is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:4:deadlockboard.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:5:deadlockboard2.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:5:deadlockboard2 is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:5:deadlockboard2.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:6:deadlockboard3.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:6:deadlockboard3 is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:6:deadlockboard3.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:7:get capture starting bd.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:7:get capture starting bd is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:7:get capture starting bd.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:8:get capture three piece bd.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:8:get capture three piece bd is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:8:get capture three piece bd.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:9:get capture deadlockbd.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:9:get capture deadlockbd is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:9:get capture deadlockbd.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:10:get capture deadlockbd2.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:10:get capture deadlockbd2 is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:10:get capture deadlockbd2.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:11:get capture deadlockbd3.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:11:get capture deadlockbd3 is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:11:get capture deadlockbd3.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:12:no possible moves.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:12:no possible moves is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:12:no possible moves.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:13:demo win board red moves.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:13:demo win board red moves is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:13:demo win board red moves.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:14:demo win board with curr_player = black.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:14:demo win board with curr_player = black is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:14:demo win board with curr_player = black.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:15:no jumps.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:15:no jumps is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:15:no jumps.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:16:one jump.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:16:one jump is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:16:one jump.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Start test test suite for A6:17:2 jumps.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: Test test suite for A6:17:2 jumps is successful.
+2019-04-23T16:30:19+00:00 dhcp-ccc-3693.eduroam.cornell.edu#01 I: End test test suite for A6:17:2 jumps.

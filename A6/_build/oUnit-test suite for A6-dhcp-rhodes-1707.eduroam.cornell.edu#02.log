@@ -1,0 +1,39 @@
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:1:check switches to Red.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:1:check switches to Red is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:1:check switches to Red.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:5:Invalid Move Red attempt move enemy piece.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:5:Invalid Move Red attempt move enemy piece is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:5:Invalid Move Red attempt move enemy piece.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:7:test white capture red.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:7:test white capture red is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:7:test white capture red.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:9:Illegal Red Move backwards.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:9:Illegal Red Move backwards is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:9:Illegal Red Move backwards.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:11:Legal White Move.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:11:Legal White Move is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:11:Legal White Move.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:13:check move 11.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:13:check move 11 is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:13:check move 11.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:15:check move 12.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:15:check move 12 is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:15:check move 12.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:17:Legal White Move.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:17:Legal White Move is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:17:Legal White Move.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:19:check red no win.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:19:check red no win is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:19:check red no win.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:21:check red win.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:21:check red win is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:21:check red win.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:22:no possible moves.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:22:no possible moves is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:22:no possible moves.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:25:no jumps.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:25:no jumps is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:25:no jumps.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Start test test suite for A6:26:one jump.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: Test test suite for A6:26:one jump is successful.
+2019-04-24T17:55:04+00:00 dhcp-rhodes-1707.eduroam.cornell.edu#02 I: End test test suite for A6:26:one jump.

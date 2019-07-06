@@ -1,0 +1,21 @@
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Start test test suite for A6:1:check white no win.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Test test suite for A6:1:check white no win is successful.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: End test test suite for A6:1:check white no win.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Start test test suite for A6:3:no possible moves.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Test test suite for A6:3:no possible moves is successful.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: End test test suite for A6:3:no possible moves.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Start test test suite for A6:4:demo win board red moves.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Test test suite for A6:4:demo win board red moves is successful.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: End test test suite for A6:4:demo win board red moves.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Start test test suite for A6:5:demo win board with curr_player = white.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Test test suite for A6:5:demo win board with curr_player = white is successful.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: End test test suite for A6:5:demo win board with curr_player = white.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Start test test suite for A6:6:no jumps.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Test test suite for A6:6:no jumps is successful.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: End test test suite for A6:6:no jumps.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Start test test suite for A6:7:one jump.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Test test suite for A6:7:one jump is successful.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: End test test suite for A6:7:one jump.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Start test test suite for A6:8:2 jumps.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: Test test suite for A6:8:2 jumps is successful.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#02 I: End test test suite for A6:8:2 jumps.

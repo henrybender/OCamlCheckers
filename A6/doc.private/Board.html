@@ -1,0 +1,330 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta content="text/html; charset=iso-8859-1" http-equiv="Content-Type">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Start" href="index.html">
+<link rel="next" href="Main.html">
+<link rel="Up" href="index.html">
+<link title="Index of types" rel=Appendix href="index_types.html">
+<link title="Index of values" rel=Appendix href="index_values.html">
+<link title="Index of modules" rel=Appendix href="index_modules.html">
+<link title="Board" rel="Chapter" href="Board.html">
+<link title="Main" rel="Chapter" href="Main.html"><title>Board</title>
+</head>
+<body>
+<div class="navbar">&nbsp;<a class="up" href="index.html" title="Index">Up</a>
+&nbsp;<a class="post" href="Main.html" title="Main">Next</a>
+</div>
+<h1>Module <a href="type_Board.html">Board</a></h1>
+
+<pre><span id="MODULEBoard"><span class="keyword">module</span> Board</span>: <code class="code">sig</code> <a href="Board.html">..</a> <code class="code">end</code></pre><hr width="100%">
+
+<pre><code><span id="TYPEcolor"><span class="keyword">type</span> <code class="type"></code>color</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcolor.Red"><span class="constructor">Red</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTcolor.White"><span class="constructor">White</span></span></code></td>
+
+</tr></table>
+
+
+
+<pre><code><span id="TYPErank"><span class="keyword">type</span> <code class="type"></code>rank</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTrank.King"><span class="constructor">King</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTrank.Pawn"><span class="constructor">Pawn</span></span></code></td>
+
+</tr></table>
+
+
+
+<pre><span id="TYPEpiece"><span class="keyword">type</span> <code class="type"></code>piece</span> = <code class="type"><a href="Board.html#TYPEcolor">color</a> * <a href="Board.html#TYPErank">rank</a></code> </pre>
+
+
+<pre><code><span id="TYPEt"><span class="keyword">type</span> <code class="type"></code>t</span> = {</code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt.curr_board">curr_board</span>&nbsp;: <code class="type"><a href="Board.html#TYPEpiece">piece</a> option array array</code>;</code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code>&nbsp;&nbsp;</code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTt.curr_player">curr_player</span>&nbsp;: <code class="type"><a href="Board.html#TYPEcolor">color</a></code>;</code></td>
+
+</tr></table>
+}
+
+<div class="info ">
+<div class="info-desc">
+<p>The abstract type which represents the current state of the board</p>
+
+<p>Validity of a move</p>
+
+<p>The abstract type which represents the current state of the board</p>
+
+<p>Validity of a move</p>
+</div>
+</div>
+
+
+<pre><code><span id="TYPEvalidity"><span class="keyword">type</span> <code class="type"></code>validity</span> = </code></pre><table class="typetable">
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTvalidity.Valid"><span class="constructor">Valid</span></span></code></td>
+
+</tr>
+<tr>
+<td align="left" valign="top" >
+<code><span class="keyword">|</span></code></td>
+<td align="left" valign="top" >
+<code><span id="TYPEELTvalidity.Invalid"><span class="constructor">Invalid</span></span></code></td>
+<td class="typefieldcomment" align="left" valign="top" ><code>(*</code></td><td class="typefieldcomment" align="left" valign="top" ><div class="info ">
+<div class="info-desc">
+<p>Position of a piece</p>
+
+<p>Position of a piece</p>
+</div>
+</div>
+</td><td class="typefieldcomment" align="left" valign="bottom" ><code>*)</code></td>
+</tr></table>
+
+
+
+<pre><span id="TYPEposition"><span class="keyword">type</span> <code class="type"></code>position</span> = <code class="type">int * int</code> </pre>
+
+
+<pre><span id="VALstring_of_color"><span class="keyword">val</span> string_of_color</span> : <code class="type"><a href="Board.html#TYPEcolor">color</a> -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">string_of_color c</code> returns string representation of color <code class="code">c</code></p>
+
+<p><code class="code">string_of_color c</code> returns string representation of color <code class="code">c</code></p>
+</div>
+</div>
+
+<pre><span id="VALtwo_jump_promotion_board"><span class="keyword">val</span> two_jump_promotion_board</span> : <code class="type">(<a href="Board.html#TYPEcolor">color</a> * <a href="Board.html#TYPErank">rank</a>) option array array</code></pre>
+<pre><span id="VALdemo_win_board"><span class="keyword">val</span> demo_win_board</span> : <code class="type">(<a href="Board.html#TYPEcolor">color</a> * <a href="Board.html#TYPErank">rank</a>) option array array</code></pre>
+<pre><span id="VALstarting_board"><span class="keyword">val</span> starting_board</span> : <code class="type">(<a href="Board.html#TYPEcolor">color</a> * <a href="Board.html#TYPErank">rank</a>) option array array</code></pre>
+<pre><span id="VALmake_game"><span class="keyword">val</span> make_game</span> : <code class="type"><a href="Board.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">make_game</code> intializes the board</p>
+
+<p><code class="code">make_game names</code> intializes the board</p>
+</div>
+</div>
+
+<pre><span id="VALrank_at"><span class="keyword">val</span> rank_at</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> int * int -> <a href="Board.html#TYPErank">rank</a> option</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">rank_at bd (x,y)</code> returns rank option at board position <code class="code">(x,y)</code></p>
+</div>
+</div>
+
+<pre><span id="VALcolor_at"><span class="keyword">val</span> color_at</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> int * int -> <a href="Board.html#TYPEcolor">color</a> option</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">color_at bd (x,y)</code> returns color option at board position <code class="code">(x,y)</code></p>
+
+<p><code class="code">color_at bd (x,y)</code> returns color option at board position <code class="code">(x,y)</code></p>
+</div>
+</div>
+
+<pre><span id="VALcmp"><span class="keyword">val</span> cmp</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> int * int -> int * int -> int</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">cmp bd (sx,sy) (dx,dy)</code> is</p>
+<ul>
+<li>Red, White  -&gt; 1</li>
+<li>Red, Red || White, White -&gt; 0</li>
+<li>White, Red -&gt; -1</li>
+<li>_, None -&gt; 0
+     = None, _ -&gt; 0</li>
+</ul>
+</div>
+</div>
+
+<pre><span id="VALvalid_dir"><span class="keyword">val</span> valid_dir</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> int * int -> int * 'a -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">valid_dir bd (sx, sy) (dx, dy) </code> is true if the piece at src is 
+    allowed to move in the direction of dst
+    Red can only move up
+    White can only move down
+    King can move either</p>
+</div>
+</div>
+
+<pre><span id="VALvalid_jump"><span class="keyword">val</span> valid_jump</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> int * int -> int * int -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">valid_jump bd (sx,sy) (dx,dy)</code> is <code class="code">true</code> if the jump from (sx, sx) to (dx, dy) is valid</p>
+</div>
+</div>
+
+<pre><span id="VALvalid_move"><span class="keyword">val</span> valid_move</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> <a href="Board.html#TYPEposition">position</a> -> <a href="Board.html#TYPEposition">position</a> -> <a href="Board.html#TYPEvalidity">validity</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">valid_move bd src dst</code> returns validity of the move from 
+    <code class="code">src</code> to <code class="code">dst</code> on the board <code class="code">bd</code>.</p>
+
+<p><code class="code">valid_move bd src dst</code> returns validity of the move from 
+    <code class="code">src</code> to <code class="code">dst</code> is a valid move</p>
+</div>
+</div>
+
+<pre><span id="VALpossible_move_help"><span class="keyword">val</span> possible_move_help</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -><br>       <a href="Board.html#TYPEposition">position</a> -> int -> (<a href="Board.html#TYPEposition">position</a> * <a href="Board.html#TYPEposition">position</a> * bool) list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">possible_move_help bd src mag</code> checks whether the piece at src can move
+    <code class="code">mag</code> distance in any of the 4 diagonal directions. 
+    requires: <code class="code">src</code> is a valid piece owned by <code class="code">bd.curr_player</code></p>
+</div>
+</div>
+
+<pre><span id="VALcheck_row"><span class="keyword">val</span> check_row</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -><br>       int -><br>       int -><br>       (<a href="Board.html#TYPEposition">position</a> * <a href="Board.html#TYPEposition">position</a> * bool) list -><br>       (<a href="Board.html#TYPEposition">position</a> * <a href="Board.html#TYPEposition">position</a> * bool) list</code></pre>
+<pre><span id="VALpossible_moves"><span class="keyword">val</span> possible_moves</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> (<a href="Board.html#TYPEposition">position</a> * <a href="Board.html#TYPEposition">position</a> * bool) list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">possible_move bd</code> is the list of all possible moves the current player can make.</p>
+
+<p><code class="code">possible_move bd</code> is the list of all possible moves the current player can make.</p>
+</div>
+</div>
+
+<pre><span id="VALremove"><span class="keyword">val</span> remove</span> : <code class="type"><a href="Board.html#TYPEpiece">piece</a> option array array -> int * int -> <a href="Board.html#TYPEpiece">piece</a> option array array</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">remove currbd pos</code> returns the board after removing piece in position <code class="code">pos</code></p>
+
+<p><code class="code">remove bd pos</code> returns the board after removing piece in position <code class="code">pos</code></p>
+</div>
+</div>
+
+<pre><span id="VALadd"><span class="keyword">val</span> add</span> : <code class="type"><a href="Board.html#TYPEpiece">piece</a> option array array -><br>       <a href="Board.html#TYPEpiece">piece</a> -> int * int -> <a href="Board.html#TYPEpiece">piece</a> option array array</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">add currbd p pos</code> returns the board after adding piece <code class="code">p</code> in position <code class="code">pos</code></p>
+
+<p><code class="code">add bd p pos</code> returns the board after adding piece <code class="code">p</code> in position <code class="code">pos</code></p>
+</div>
+</div>
+
+<pre><span id="VALchange_king"><span class="keyword">val</span> change_king</span> : <code class="type"><a href="Board.html#TYPEcolor">color</a> -> int -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">change_king currplayer dx</code> checks if <code class="code">currplayer</code>'s piece is moving to a row 
+    closest to the opponent, and thus the piece needs to be changed to a king</p>
+</div>
+</div>
+
+<pre><span id="VALcheckNoReds"><span class="keyword">val</span> checkNoReds</span> : <code class="type"><a href="Board.html#TYPEpiece">piece</a> option -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">checkNoReds</code> takes a piece option and returns true if it is not Red and false otherwise</p>
+</div>
+</div>
+
+<pre><span id="VALcheckNoWhites"><span class="keyword">val</span> checkNoWhites</span> : <code class="type"><a href="Board.html#TYPEpiece">piece</a> option -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">checkNoReds</code> takes a piece option and returns true if it is not White and false otherwise</p>
+</div>
+</div>
+
+<pre><span id="VALcheck_win"><span class="keyword">val</span> check_win</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">check_win b</code> returns if the opposite player is the winner</p>
+
+<p><code class="code">check_win b</code> returns if the opposite player is the winner</p>
+</div>
+</div>
+
+<pre><span id="VALstring_of_pieceop"><span class="keyword">val</span> string_of_pieceop</span> : <code class="type">(<a href="Board.html#TYPEcolor">color</a> * <a href="Board.html#TYPErank">rank</a>) option -> string</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">string_of_pieceop po</code> returns a string representation of piece option <code class="code">po</code></p>
+</div>
+</div>
+
+<pre><span id="VALprint_board"><span class="keyword">val</span> print_board</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> unit</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">print_board bd</code> prints the current board</p>
+
+<p><code class="code">print_board bd</code> prints the current board</p>
+</div>
+</div>
+
+<pre><span id="VALget_captures"><span class="keyword">val</span> get_captures</span> : <code class="type">('a * 'b * bool) list -> ('a * 'b * bool) list</code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">get_captures movelist</code> returns the list of each move that is a capture 
+    in <code class="code">movelist</code></p>
+
+<p><code class="code">get_captures movelist</code> returns the list of each move that is a capture 
+    in <code class="code">movelist</code></p>
+</div>
+</div>
+
+<pre><span id="VALpossible_capture"><span class="keyword">val</span> possible_capture</span> : <code class="type">('a * 'b * bool) list -> 'a -> 'b option</code></pre><div class="info ">
+<div class="info-desc">
+<p>possible_capture lst src returns the destination of any captures that can
+    be made by the piece at src in the capture list lst.</p>
+</div>
+</div>
+
+<pre><span id="VALenforced_captures"><span class="keyword">val</span> enforced_captures</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> <a href="Board.html#TYPEposition">position</a> -> <a href="Board.html#TYPEposition">position</a> -> <a href="Board.html#TYPEvalidity">validity</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">enforced_captures bd src dst</code> returns the checks that the move is valid
+    and that it captures an opponent if it is possible</p>
+
+<p><code class="code">enforced_captures bd src dst</code> returns the checks that the move is valid
+    and that it captures an opponent if it is possible</p>
+</div>
+</div>
+
+<pre><span id="VALmultiple_jump"><span class="keyword">val</span> multiple_jump</span> : <code class="type"><a href="Board.html#TYPEposition">position</a> -> <a href="Board.html#TYPEt">t</a> -> <a href="Board.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">multiple_jump src bd</code> returns the board after multiple mandatory jumps
+   (if any) have been completed by the piece located at src</p>
+
+<p><code class="code">multiple_jump src bd</code> returns the board after multiple mandatory jumps
+   (if any) have been completed by the piece located at src</p>
+</div>
+</div>
+
+<pre><span id="VALmove"><span class="keyword">val</span> move</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> <a href="Board.html#TYPEposition">position</a> -> <a href="Board.html#TYPEposition">position</a> -> <a href="Board.html#TYPEt">t</a></code></pre><div class="info ">
+<div class="info-desc">
+<p><code class="code">move bd src dst</code> returns the board after the move from <code class="code">src</code> to <code class="code">dst</code>, and
+    handles all captures and king promotions.</p>
+
+<p><code class="code">move bd src dst</code> returns the board after the move from <code class="code">src</code> to <code class="code">dst</code></p>
+</div>
+</div>
+
+<pre><span id="VALpick_move_helper"><span class="keyword">val</span> pick_move_helper</span> : <code class="type"><a href="Board.html#TYPEt">t</a> -> int -> int -> bool</code></pre><div class="info ">
+<div class="info-desc">
+<p>pick_move_helper bd x y returns true if the potential square to move to is
+    not exposed to capturing by a red piece, and false if it is exposed to capture
+    by a red piece.</p>
+</div>
+</div>
+
+<pre><span id="VALpick_move"><span class="keyword">val</span> pick_move</span> : <code class="type">('a * (int * int) * 'b) list -> <a href="Board.html#TYPEt">t</a> -> int -> 'a * (int * int)</code></pre><div class="info ">
+<div class="info-desc">
+<p>pick_move mv_lst bd  n will return the optimal move for the AI given current 
+   moves and the next possible move by the human player. pick_move checks for n 
+   random moves to see if any of these result in not further exposing pieces to be
+   captured by the human player, after n calls, it will just return the first move 
+   possible in the mv_lst.</p>
+</div>
+</div>
+</body></html>

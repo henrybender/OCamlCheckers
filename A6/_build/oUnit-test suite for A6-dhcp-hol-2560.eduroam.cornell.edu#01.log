@@ -1,0 +1,10 @@
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#01 I: Start test test suite for A6:0:check red no win.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#01 I: Test test suite for A6:0:check red no win is successful.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#01 I: End test test suite for A6:0:check red no win.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#01 I: Start test test suite for A6:2:check red win.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#01 E: Test test suite for A6:2:check red win has failed.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#01 E: not equal in test test suite for A6:2:check red win.
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#01 E: Raised at file "src/oUnitAssert.ml", line 45, characters 8-27
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#01 E: Called from file "src/oUnitRunner.ml", line 46, characters 13-26
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#01 E: 
+2019-04-24T17:04:50+00:00 dhcp-hol-2560.eduroam.cornell.edu#01 I: End test test suite for A6:2:check red win.
